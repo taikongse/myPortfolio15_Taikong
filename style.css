@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  
+nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+nav li {
+    /*position: static;*/
+    justify-content: space-around;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 80px;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    top: 80;
+}
+  
+.main-nav > ul {
+  display: flex;
+  height: 100%;
+}
+
+nav ol, nav ul {
+  list-style: none;
+  color: white;
+}
+
+menu, ol, ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+menu, ol, ul {
+  margin: 0;
+  color: white;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+/* ref for nav bar >> https://css-tricks.com/ */
+
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  color: white;
+}
+
+  main h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+
+  main p {
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+  }
+
+  main li {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+  }
+
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+
+  /* 
+  .box-shadow {
+  margin: 32px auto;  
+  max-width:450px;
+  max-height: 300px;
+  padding: 4px 4px 32px 4px;
+  border: 1px solid #000000;
+  box-shadow: 0px 5px 10px #000000;
+} 
+  */
